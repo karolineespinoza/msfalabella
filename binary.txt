@@ -1,0 +1,1 @@
+{"rut":"12345663","numeroCelular":"987654321","email":"t@t.cl","renta":"20000"}
