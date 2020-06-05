@@ -18,11 +18,12 @@ exports.guardar = function (req, res) {
                 return res.status(500).send('El campo renta es requerido');
         }
         else {
-            funciones.escribir(JSON.stringify(body));
-            return res.status(200).send('Datos guardados correctamente.');
+            funciones.escribir(body);
+            return res.status(200).send("Datos guardados correctamente");
         }
-    } catch (error) {
-    console.log(error);
-        return res.status(500).send(error);
+    }
+    catch (error) {
+        console.log(error);
+        return res.status(400).send(error);
     }
 }
