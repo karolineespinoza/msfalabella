@@ -5,7 +5,7 @@ Pasos para iniciar el microservicio:
 
 2. Abra una terminal (cmd) y diríjase al directorio donde se encuentra el código fuente descargado.
 
-3. Antes de ejecutar la aplicación, primero debe instalar el npm, para esto ejecute el siguiente comando:
+3. Antes de ejecutar el servicio, primero debe instalar el npm, para esto ejecute el siguiente comando:
 ```
 npm install
 ```
